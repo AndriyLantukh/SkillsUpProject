@@ -8,6 +8,13 @@
     <artifactId>auction</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>auction-domain</module>
+        <module>dao-api</module>
+        <module>auction-service</module>
+        <module>auction-dao-impl</module>
+        <module>auction-main</module>
+    </modules>
 
     <properties>
         <spring-version>4.2.3.RELEASE</spring-version>
