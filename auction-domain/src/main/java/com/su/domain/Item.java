@@ -1,8 +1,6 @@
 package com.su.domain;
 
-/**
- * Created by Инна on 17.09.2016.
- */
+
 public class Item {
 
     private String title;

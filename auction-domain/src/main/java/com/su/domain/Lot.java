@@ -1,11 +1,11 @@
 package com.su.domain;
 
 import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
 import java.util.Date;
+import java.util.List;
 
-/**
- * Created by Инна on 17.09.2016.
- */
 public class Lot {
 
     private Item item;
@@ -15,7 +15,7 @@ public class Lot {
     private Date dateEnd;
     private User buyer;
     private BigDecimal currentPrice;
-
+    private List<Bid> bidHistory;
 
     public Item getItem() {
         return item;
@@ -72,4 +72,21 @@ public class Lot {
     public void setCurrentPrice(BigDecimal currentPrice) {
         this.currentPrice = currentPrice;
     }
+
+    public List<Bid> getBidHistory() {
+        return bidHistory;
+    }
+
+    public void setBidHistory(List<Bid> bidHistory) {
+        this.bidHistory = bidHistory;
+    }
+
+    public void addBid(Bid bid) {
+        this.bidHistory.add(bid);
+    }
+
+    public BigDecimal getBidValue() {
+        return currentPrice.multiply(new BigDecimal(0.05)).round(new MathContext(2, RoundingMode.HALF_UP));
+    }
+
 }

@@ -8,9 +8,6 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Инна on 17.09.2016.
- */
 @Component
 public class UserDaoImpl implements UserDao {
 

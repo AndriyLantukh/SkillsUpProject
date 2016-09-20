@@ -7,9 +7,6 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Инна on 17.09.2016.
- */
 @Component
 public class LotDaoImpl implements LotDao {
 
