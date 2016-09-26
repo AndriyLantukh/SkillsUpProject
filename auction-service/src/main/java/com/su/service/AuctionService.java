@@ -19,4 +19,9 @@ public interface AuctionService {
 
     Lot closeLot(Lot lot);
 
+    Lot getLotByItemTitle(String title);
+
+    Lot getActiveLotByItemTitle(String title);
+
+
 }

@@ -51,4 +51,14 @@ public class Bid {
     public void setPriceAfterBid(BigDecimal priceAfterBid) {
         this.priceAfterBid = priceAfterBid;
     }
+
+    @Override
+    public String toString() {
+        return "Bid{" +
+                "bider=" + bider +
+                ", bidDate=" + bidDate +
+                ", bidValue=" + bidValue +
+                ", priceAfterBid=" + priceAfterBid +
+                '}';
+    }
 }

@@ -13,4 +13,6 @@ public interface ItemService {
 
     Item createItem(String title, String description);
 
+    Item getItemByTitle(String title);
+
 }
