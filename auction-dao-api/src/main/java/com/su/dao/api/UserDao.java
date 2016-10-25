@@ -1,9 +1,9 @@
-package com.su.service.dao.api;
+package com.su.dao.api;
 
 import com.su.domain.User;
 
 /**
- * Created by Инна on 17.09.2016.
+ * Created by Андрей on 25.10.2016.
  */
 public interface UserDao extends GenericDao<User> {
 }

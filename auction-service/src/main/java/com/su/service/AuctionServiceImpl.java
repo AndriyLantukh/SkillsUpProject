@@ -1,8 +1,7 @@
 package com.su.service;
 
+import com.su.dao.api.LotDao;
 import com.su.domain.Bid;
-import com.su.service.dao.api.LotDao;
-import com.su.service.dao.api.UserDao;
 import com.su.domain.Item;
 import com.su.domain.Lot;
 import com.su.domain.User;

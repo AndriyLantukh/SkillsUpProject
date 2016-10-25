@@ -1,4 +1,4 @@
-package com.su.service.dao.api;
+package com.su.dao.api;
 
 import java.util.List;
 

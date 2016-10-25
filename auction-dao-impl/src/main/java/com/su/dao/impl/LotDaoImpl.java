@@ -1,6 +1,6 @@
-package com.su.service.dao.impl;
+package com.su.dao.impl;
 
-import com.su.service.dao.api.LotDao;
+import com.su.dao.api.LotDao;
 import com.su.domain.Lot;
 import org.springframework.stereotype.Component;
 

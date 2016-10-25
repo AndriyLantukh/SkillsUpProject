@@ -1,7 +1,7 @@
 package com.su.service;
 
 import com.su.domain.User;
-import com.su.service.dao.api.UserDao;
+import com.su.dao.api.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

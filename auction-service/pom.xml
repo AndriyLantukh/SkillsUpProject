@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>com.su</groupId>
-            <artifactId>dao-api</artifactId>
+            <artifactId>auction-dao-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
