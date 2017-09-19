@@ -1,2 +1,1 @@
-# skillsupAuction
 Spring + Hibernate + Web
